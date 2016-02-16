@@ -1,19 +1,22 @@
 /*ARTICLE*/
 
+body {
+  /*float: left;*/
+}
+
 article {
   width: 25%;
   border: 1px solid lightblue;
   float: left;
   display: inline-block;
-  /*margin-top: 1em;*/
-  /*margin-bottom: 1em;*/
   padding: 10px;
   margin: 10px;
-  line-height: 14px;
+  float: left;
   }
 
-#pricing {
+.specs {
   font-weight: bold;
+  line-height: 0em;
   }
 
 #donut-type {
@@ -23,6 +26,8 @@ article {
 #availability {
   background-color: lightgray;
   color: yellow;
+  line-height: 2em;
+  text-align: center;
 }
 
 /*IMAGES*/
@@ -38,8 +43,14 @@ img {
 
 article header h1{
   border: 1px dotted lightgray;
+  /*padding: 0px;*/
+  line-height: 3em;
 }
 
 header h1 {
   text-align: center;
+}
+
+.clearme {
+  clear: left;
 }
