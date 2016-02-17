@@ -1,30 +1,32 @@
 /*ARTICLE*/
 
 body {
-  /*float: left;*/
+  background-color: #ff69b4;
 }
 
 article {
-  width: 25%;
+  width: 30%;
   border: 1px solid lightblue;
+  background-color: white;
   float: left;
   display: inline-block;
-  padding: 10px;
   margin: 10px;
   float: left;
   }
 
 .specs {
+  text-indent: 10px;
   font-weight: bold;
   line-height: 0em;
   }
 
 #donut-type {
   text-align: justify;
+  margin: 0 5px 0 5px;
   }
 
 #availability {
-  background-color: lightgray;
+  background-color: darkgray;
   color: yellow;
   line-height: 2em;
   text-align: center;
@@ -43,12 +45,15 @@ img {
 
 article header h1{
   border: 1px dotted lightgray;
-  /*padding: 0px;*/
   line-height: 3em;
 }
 
 header h1 {
   text-align: center;
+}
+
+header h2 {
+  text-indent: 10px;
 }
 
 .clearme {
